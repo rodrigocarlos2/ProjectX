@@ -4686,7 +4686,7 @@ var SurveyEditor = (function () {
             
             survey.onComplete.add(function (sender) { if (surveyjsExampleResults)
                 
-            surveyjsExampleResults.innerHTML = "Data > "+ _this.getLocString("ed.surveyResults") + JSON.stringify(survey.data) + " / Geolocation:" + "{ Latidude" + latitude + " * Longitude: " + longitude + "}"  ; if (surveyjsExamplereRun)
+            surveyjsExampleResults.innerHTML = "Data > "+ _this.getLocString("ed.surveyResults") + JSON.stringify(survey.data) + " / Geolocation:" + "{ Latidude: " + latitude + " * Longitude: " + longitude + "}"  ; if (surveyjsExamplereRun)
                 
             surveyjsExamplereRun.style.display = ""; });
             
