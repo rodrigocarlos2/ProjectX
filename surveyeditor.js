@@ -4125,7 +4125,6 @@ var SurveyEditor = (function () {
         var self = this;
         this.koState = __WEBPACK_IMPORTED_MODULE_0_knockout__["observable"]();
         this.koShowSaveButton = __WEBPACK_IMPORTED_MODULE_0_knockout__["observable"](false);
-        this.koTestSurveyWidth = __WEBPACK_IMPORTED_MODULE_0_knockout__["observable"]("100%");
         this.saveButtonClick = function () { self.doSave(); };
         this.koObjects = __WEBPACK_IMPORTED_MODULE_0_knockout__["observableArray"]();
         this.koSelectedObject = __WEBPACK_IMPORTED_MODULE_0_knockout__["observable"]();
